@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.3.21)  12 MAR 2020 18:04
+This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.3.21)  12 MAR 2020 21:01
  restricted system commands enabled.
 **template.tex
 (./template.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.521 seconds
+luaotfload | main : initialization completed in 0.631 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
@@ -1483,7 +1483,37 @@ LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 63.
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
 (Font)              scaled to size 8.0pt on input line 63.
-<img/Template_Tools.png, id=43, 331.7193pt x 330.9966pt>
+<img/sotouniuk.png, id=43, 334.6101pt x 116.5956pt>
+File: img/sotouniuk.png Graphic file (type png)
+ <use img/sotouniuk.png>
+Package luatex.def Info: img/sotouniuk.png used on input line 63.
+(luatex.def)             Requested size: 75.28912pt x 26.23465pt.
+
+<img/social_impact_transparent.png, id=45, 800.9925pt x 800.9925pt>
+File: img/social_impact_transparent.png Graphic file (type png)
+
+<use img/social_impact_transparent.png>
+Package luatex.def Info: img/social_impact_transparent.png used on input line 63
+.
+(luatex.def)             Requested size: 26.03316pt x 26.03316pt.
+
+<img/light-bulb-1.png, id=46, 237.88875pt x 237.88875pt>
+File: img/light-bulb-1.png Graphic file (type png)
+
+<use img/light-bulb-1.png>
+Package luatex.def Info: img/light-bulb-1.png used on input line 63.
+(luatex.def)             Requested size: 29.73601pt x 29.73601pt.
+
+Overfull \hbox (114.87776pt too wide) in paragraph at lines 63--63
+[]$[]$| 
+ []
+
+
+Overfull \hbox (5.09836pt too wide) in paragraph at lines 63--63
+[]\TU/ClearSans(0)/m/n/20.74 Achieve-ments [][]
+ []
+
+<img/Template_Tools.png, id=47, 331.7193pt x 330.9966pt>
 File: img/Template_Tools.png Graphic file (type png)
 
 <use img/Template_Tools.png>
@@ -1502,76 +1532,73 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--85
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
+Underfull \hbox (badness 10000) in paragraph at lines 138--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
+Underfull \hbox (badness 10000) in paragraph at lines 150--150
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--163
+Underfull \hbox (badness 10000) in paragraph at lines 164--164
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 177--177
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 177.
+(Font)              scaled to size 10.0pt on input line 178.
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 190--190
 
  []
 
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 196.
+(Font)              scaled to size 7.0pt on input line 197.
 [1
 
 {C:/Users/GustavoEduardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}<./im
 g/GSTsq.jpg><./img/info.png><./img/add.png><./img/tel.png><./img/LinkedIn_Logo.p
-ng><./img/email.png><./img/Template_Tools.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+ng><./img/email.png><./img/sotouniuk.png><./img/social_impact_transparent.png><.
+/img/light-bulb-1.png><./img/Template_Tools.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 199.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 199.
  (./template.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 199.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 199.
 Package rerunfilecheck Info: File `template.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 )
 
 Here is how much of LuaTeX's memory you used:
- 28653 strings out of 494568
+ 28683 strings out of 494568
  100000,794899 words of node,token memory allocated
- 1554 words of node memory still in use:
-   22 hlist, 1 vlist, 10 rule, 51 glue, 96 attribute, 54 glue_spec, 96 attribute
+ 1543 words of node memory still in use:
+   22 hlist, 1 vlist, 10 rule, 50 glue, 95 attribute, 54 glue_spec, 95 attribute
 _list, 1 write, 39 pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:3,2:1576,3:475,4:47,5:240,6:2067,7:1056,8:68,9:405,10:10,11:19
-1
- 31612 multiletter control sequences out of 65536+200000
+   avail lists: 1:3,2:1678,3:488,4:47,5:247,6:2139,7:1127,8:77,9:453,10:10,11:19
+6
+ 31624 multiletter control sequences out of 65536+200000
  45 fonts using 5524351 bytes
- 62i,21n,75p,816b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 62i,22n,75p,816b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/GustavoEduardo/AppData/Local/Programs/MiKTeX 2.9/fonts/truetype/intel/
 clearsans/ClearSans-Italic.ttf><C:/Users/GustavoEduardo/AppData/Local/Programs/M
 iKTeX 2.9/fonts/truetype/intel/clearsans/ClearSans-Bold.ttf><C:/Users/GustavoEdu
 ardo/AppData/Local/Programs/MiKTeX 2.9/fonts/truetype/intel/clearsans/ClearSans-
 Regular.ttf><./fonts/segoeuib.ttf>
-Output written on template.pdf (1 page, 6542868 bytes).
+Output written on template.pdf (1 page, 6704926 bytes).
 
-PDF statistics: 94 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 101 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)
  178 words of extra memory for PDF output out of 10000 (max. 100000000)
 
