@@ -163,17 +163,17 @@
 %  }
 
 
-\newcommand\interests[1]{ 
-  \renewcommand{\interests}{
-    \begin{tikzpicture}
-      \foreach [count=\i] \x/\y in {#1}{
-	\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
-	\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
-	\node [above right] at (0,\i+0.4) {\x};
-      }
-    \end{tikzpicture}
-  }
-}
+%\newcommand\interests[1]{ 
+%  \renewcommand{\interests}{
+%    \begin{tikzpicture}
+%      \foreach [count=\i] \x/\y in {#1}{
+%	\draw[fill=maingray,maingray] (0,\i) rectangle (6,\i+0.4);
+%	\draw[fill=white,mainblue](0,\i) rectangle (\y,\i+0.4);
+%	\node [above right] at (0,\i+0.4) {\x};
+%      }
+%    \end{tikzpicture}
+%  }
+%}
 
 
 %----------------------------------------------------------------------------------------
@@ -259,19 +259,31 @@
 
     %------------------------------------------------
 %        \vspace{3mm}
-        \profilesection{Skills}{3cm}
+        \profilesection{Skills}{3.75cm}
 
     	\skills
         
         %------------------------------------------------
 %        \vspace{3mm}
-        \profilesection{Interests}{2.5cm} 
-        
-        \interests
+%        \profilesection{Interests}{2.5cm} 
+          \profilesection{Achievements}{1.5cm}
+        {$
+            \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{5cm}}
+                     %\vspace{.0025mm}
+                     {$
+              	\arraycolsep=1.4pt\def\arraystretch{2.7}\begin{array}{cr}
+            		 \raisebox{-.4\height}{\includegraphics[scale=0.225]{img/sotouniuk.png}} & \mbox{Graduated} \\
+			 \raisebox{-.4\height}{\href{https://www.facebook.com/138705879648631/videos/799999160185963/}{\includegraphics[scale=0.0325]{img/social_impact_transparent.png}}} & \mbox{Social Impact} \\%{\href{https://www.facebook.com/138705879648631/videos/799999160185963/}
+                                 \raisebox{-.4\height}{\includegraphics[scale=0.125]{img/light-bulb-1.png}} & \mbox{Patent Author}%
+                     \end{array}
+                     $}
+     	\end{tabular}
+        $}           
+%        \interests
 %        \languageknowledge
         
         \vspace{-51mm}
-        \profilesection{Tools}{2cm} 
+        \profilesection{Tools}{2.25cm} 
         {$
               \begin{array}{l}
 %              \vspace{3mm}
