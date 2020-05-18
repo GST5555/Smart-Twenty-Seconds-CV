@@ -21,7 +21,6 @@
 \usetikzlibrary{shapes.geometric,calc} 
 \usepackage{enumitem}
 \setlist[itemize]{leftmargin=*}
-
 \RequirePackage[hidelinks]{hyperref}
 \hypersetup{
     pdftitle={},
@@ -282,21 +281,35 @@
 %        \interests
 %        \languageknowledge
         
-        \vspace{-51mm}
-        \profilesection{Tools}{2.25cm} 
+        \vspace{-4mm}
+        \profilesection{Tools}{4.5cm} 
         {$
-              \begin{array}{l}
+           %\vspace{1mm}
+            \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{6cm}}
+                     \vspace{-5mm}
+                     {$
+              	\arraycolsep=1.4pt\def\arraystretch{2.5}\begin{array}{ccc}
+            		 \raisebox{-.4\height}{\includegraphics[scale=0.4]{img/tool1.png}} & \raisebox{-.4\height}{\includegraphics[scale=0.055]{img/tool2.png}} & \raisebox{-.4\height}{\includegraphics[scale=0.225]{img/tool3.png}} \\
+            		 \raisebox{-.4\height}{\includegraphics[scale=0.025]{img/tool4.png}} & \raisebox{-.4\height}{\includegraphics[scale=0.035]{img/tool5.png}} & \raisebox{-.4\height}{\includegraphics[scale=0.025]{img/tool6.png}} \\
+            		 \raisebox{-.4\height}{\includegraphics[scale=0.14]{img/tool7.png}} & \raisebox{-.4\height}{\includegraphics[scale=0.034]{img/tool8.png}} & \raisebox{-.4\height}{\includegraphics[scale=0.115]{img/tool9.png}} \\
+            		 \raisebox{-.4\height}{\includegraphics[scale=0.0225]{img/tool10.png}} & \raisebox{-.4\height}{\includegraphics[scale=0.0415]{img/tool11.png}}
+                                 {}
+			 
+                     \end{array}
+                     $}
+     	\end{tabular}
+%              \begin{array}{l}
 %              \vspace{3mm}
-	   \\
-	   \\
-	   \\
-	   \\
-	   \\
-	   \\
-	   \\
-	   \\
-              \hspace{-37.5mm}{\includegraphics[scale=0.42]{img/Template_Tools.png}}
-              \end{array}
+%	   \\
+%	   \\
+%	   \\
+%	   \\
+%	   \\
+%	   \\
+%	   \\
+%	   \\
+%              \hspace{-37.5mm}{\includegraphics[scale=0.42]{img/Template_Tools.png}}
+%              \end{array}
         $}   
   \end{textblock}
 }
