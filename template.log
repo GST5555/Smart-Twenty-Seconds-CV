@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.3.21)  18 MAY 2020 16:41
+This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.3.21)  18 MAY 2020 17:47
  restricted system commands enabled.
 **template.tex
 (./template.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.587 seconds
+luaotfload | main : initialization completed in 1.393 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
@@ -1479,10 +1479,16 @@ Overfull \hbox (14.22643pt too wide) in paragraph at lines 63--63
 [][] 
  []
 
-LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 63.
-LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
-(Font)              scaled to size 8.0pt on input line 63.
+
+Overfull \hbox (97.04958pt too wide) in paragraph at lines 63--63
+[]$[]$| 
+ []
+
+
+Overfull \hbox (10.01825pt too wide) in paragraph at lines 63--63
+[]\TU/ClearSans(0)/m/n/20.74 Skills [][]
+ []
+
 <img/sotouniuk.png, id=43, 334.6101pt x 116.5956pt>
 File: img/sotouniuk.png Graphic file (type png)
  <use img/sotouniuk.png>
@@ -1595,6 +1601,8 @@ luaotfload | load : use bracket syntax instead!
 luaotfload | load : position: 24; full match: "fonts/segoeuib.ttf"
 LaTeX Font Info:    Font shape `TU/ClearSans(0)/bx/n' will be
 (Font)              scaled to size 10.0pt on input line 76.
+LaTeX Font Info:    Font shape `TU/ClearSans(0)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 76.
 
 Underfull \hbox (badness 10000) in paragraph at lines 70--85
 
@@ -1652,22 +1660,22 @@ Package rerunfilecheck Info: File `template.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 28783 strings out of 494568
+ 28672 strings out of 494568
  100000,794899 words of node,token memory allocated
- 1543 words of node memory still in use:
-   22 hlist, 1 vlist, 10 rule, 50 glue, 95 attribute, 54 glue_spec, 95 attribute
+ 1525 words of node memory still in use:
+   22 hlist, 1 vlist, 10 rule, 48 glue, 94 attribute, 54 glue_spec, 94 attribute
 _list, 1 write, 39 pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:3,2:1822,3:521,4:47,5:247,6:2140,7:1153,8:84,9:536,10:10,11:19
-6
- 31664 multiletter control sequences out of 65536+200000
- 45 fonts using 5524351 bytes
- 62i,22n,75p,816b,790s stack positions out of 5000i,500n,10000p,200000b,50000s
+   avail lists: 1:3,2:1484,3:306,4:47,5:249,6:2270,7:1291,8:100,9:570,10:10,11:2
+08
+ 31556 multiletter control sequences out of 65536+200000
+ 44 fonts using 5383391 bytes
+ 62i,22n,75p,816b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/GustavoEduardo/AppData/Local/Programs/MiKTeX 2.9/fonts/truetype/intel/
 clearsans/ClearSans-Italic.ttf><C:/Users/GustavoEduardo/AppData/Local/Programs/M
 iKTeX 2.9/fonts/truetype/intel/clearsans/ClearSans-Bold.ttf><C:/Users/GustavoEdu
 ardo/AppData/Local/Programs/MiKTeX 2.9/fonts/truetype/intel/clearsans/ClearSans-
 Regular.ttf><./fonts/segoeuib.ttf>
-Output written on template.pdf (1 page, 7105588 bytes).
+Output written on template.pdf (1 page, 7104361 bytes).
 
 PDF statistics: 121 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)

@@ -258,9 +258,32 @@
 
     %------------------------------------------------
 %        \vspace{3mm}
-        \profilesection{Skills}{3.75cm}
+        \profilesection{Skills}{4.5cm}
+        {$
+            \begin{tabular}{p{1cm} @{\hskip 0.5cm}p{5cm}}
+                     \vspace{.0025mm}
+                     {$
+              	\arraycolsep=1.4pt\def\arraystretch{1}\begin{array}{rl}
+            		  \mbox{General Engineering} & \mbox{100\%} \\
+			  \mbox{CAD} & \mbox{75\%} \\
+                                  \mbox{CAE} & \mbox{30\%} \\
+                                  \mbox{Mechanical Design} & \mbox{60\%} \\
+                                  \mbox{Scripting} & \mbox{55\%} \\
+                                  \mbox{Codding} & \mbox{85\%} \\
+                                  \mbox{Critical Thinking} & \mbox{95\%} \\
+                                  \mbox{Administration} & \mbox{80\%} \\
+                                  \mbox{Creative} & \mbox{99\%} \\
+                                  \mbox{Team Work} & \mbox{78\%} \\
+                                  \mbox{Scientific Method} & \mbox{94\%} \\
+                                  \mbox{Innovation} & \mbox{45\%} \\
+                                  \mbox{Programming} & \mbox{92\%} \\
+                                  \mbox{Research} & \mbox{73\%} \\
+                     \end{array}
+                     $}
+     	\end{tabular}
+        $}
+%    	\skills
 
-    	\skills
         
         %------------------------------------------------
 %        \vspace{3mm}
