@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.3.21)  18 MAY 2020 17:47
+This is LuaTeX, Version 1.0.0 (MiKTeX 2.9.6210 64-bit)  (format=lualatex 2017.3.21)  18 MAY 2020 19:36
  restricted system commands enabled.
 **template.tex
 (./template.tex
@@ -33,7 +33,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 1.393 seconds
+luaotfload | main : initialization completed in 1.227 seconds
 Babel <3.9r> and hyphenation patterns for 1 language(s) loaded.
 (./twentysecondcv.cls
 Document Class: twentysecondcv 2015/02/28 CV class
@@ -1665,8 +1665,8 @@ Here is how much of LuaTeX's memory you used:
  1525 words of node memory still in use:
    22 hlist, 1 vlist, 10 rule, 48 glue, 94 attribute, 54 glue_spec, 94 attribute
 _list, 1 write, 39 pdf_literal, 18 pdf_colorstack nodes
-   avail lists: 1:3,2:1484,3:306,4:47,5:249,6:2270,7:1291,8:100,9:570,10:10,11:2
-08
+   avail lists: 1:3,2:1484,3:306,4:47,5:248,6:2293,7:1297,8:100,9:570,10:10,11:2
+09
  31556 multiletter control sequences out of 65536+200000
  44 fonts using 5383391 bytes
  62i,22n,75p,816b,697s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1675,7 +1675,7 @@ clearsans/ClearSans-Italic.ttf><C:/Users/GustavoEduardo/AppData/Local/Programs/M
 iKTeX 2.9/fonts/truetype/intel/clearsans/ClearSans-Bold.ttf><C:/Users/GustavoEdu
 ardo/AppData/Local/Programs/MiKTeX 2.9/fonts/truetype/intel/clearsans/ClearSans-
 Regular.ttf><./fonts/segoeuib.ttf>
-Output written on template.pdf (1 page, 7104361 bytes).
+Output written on template.pdf (1 page, 7104457 bytes).
 
 PDF statistics: 121 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 131072)
